@@ -1,0 +1,143 @@
+/* Basic Reset */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+   font-family: 'Arial, sans-serif';
+   background: linear-gradient(to right, #ff9966, #ff5e62);
+   color: #333;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   padding: 20px;
+}
+
+/* Header Styling */
+.header {
+   width: 100%;
+   max-width: 1200px;
+   display: flex;
+   justify-content: flex-end;
+   padding: 10px 20px;
+   position: absolute;
+   top: 0;
+}
+
+/* Navigation Styling */
+nav ul {
+   list-style: none;
+   display: flex;
+   gap: 15px;
+}
+
+nav ul li {
+   display: inline;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: #fff;
+   font-weight: bold;
+   padding: 10px 15px;
+}
+
+nav ul li a:hover,
+nav ul li button:hover {
+   background-color: #ff7e5f;
+   color: #fff;
+   border-radius: 5px;
+}
+
+nav ul li button {
+   border: none;
+   padding: 10px 15px;
+   background-color: #feb47b;
+   color: #fff;
+   font-weight: bold;
+   cursor: pointer;
+   border-radius: 5px;
+}
+
+/* Content Section */
+.content {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   max-width: 1200px;
+   padding: 100px 20px 20px;
+}
+
+/* Body Section Styling */
+.body {
+   flex: 2;
+   padding: 20px;
+   text-align: left;
+}
+
+.body p.demo1 {
+   font-size: 1.5em;
+   color: #fff;
+}
+
+.body h1 {
+   font-size: 2.5em;
+   margin: 10px 0;
+   color: #fff;
+}
+
+.body h1 span {
+   color: #ff5e62;
+}
+
+.body p.demo2 {
+   font-size: 1.2em;
+   color: #fff;
+   margin-bottom: 20px;
+}
+
+/* Buttons Styling */
+.buttons {
+   margin-top: 20px;
+}
+
+.button-lrn,
+.button-hire {
+   border: none;
+   padding: 10px 20px;
+   margin: 5px;
+   background-color: #ff5e62;
+   color: #fff;
+   font-weight: bold;
+   cursor: pointer;
+   border-radius: 5px;
+   transition: background-color 0.3s ease;
+}
+
+.button-lrn:hover,
+.button-hire:hover {
+   background-color: #feb47b;
+}
+
+/* Image Section Styling */
+.image {
+   text-align: center;
+   flex: 1;
+}
+
+.image img {
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   border: 5px solid white;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   position: absolute;
+   right: 50px;
+   top: 50%;
+   transform: translateY(-50%);
+}

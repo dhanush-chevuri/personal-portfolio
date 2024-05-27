@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        #mybox {
+            width: 400px;
+            height: 400px;
+            border: 0.1px solid rgb(110, 108, 108);
+            border-radius: 20px;
+            text-align: center;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            cursor: pointer;
+            margin: 10px;
+            background-color: #ffebcd; /* Attractive background color */
+            transition: transform 0.3s, border 0.3s, background-color 0.3s;
+        }
+        #mybox:hover {
+            border: 2px solid rgb(131, 131, 235);
+            transform: scale(1.05);
+            background-color: #ffe4e1; /* Background color on hover */
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            margin-top: 5px;
+            border-radius: 10px;
+        }
+        p {
+            margin-left: 40px;
+            margin-right: 40px;
+            color: #333333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="https://github.com/dhanush-chevuri/dynamic-pricing-in-e-comerce-modified" id="mybox">
+            <img src="https://www.flipkartcommercecloud.com/wp-content/uploads/2024/01/Blog-50_768x576.jpg" alt="center">
+            <p>Dynamic pricing in E-commerce</p>
+            <p>Dynamic pricing in e-commerce uses machine learning to adjust product prices in real-time based on factors like demand, competition, and customer behavior.</p>
+        </a>
+        <a href="https://github.com/dhanush-chevuri/Customer-segmentation-using-k-means-clustering" id="mybox">
+            <img src="https://miro.medium.com/v2/resize:fit:1400/1*cG6U1qstYDijh9bPL42e-Q.jpeg" alt="center">
+            <p>Customer segmentation using k-means clustering</p>
+            <p>Customer segmentation using K-means clustering divides customers into distinct groups based on purchasing behavior and demographics, enabling personalized marketing.</p>
+        </a>
+        <a href="https://github.com/dhanush-chevuri/Man-hole-Intrustion-detection-in-farming-fields-iot" id="mybox">
+            <img src="https://i.pinimg.com/originals/d8/31/ab/d831ab6f16f82c542868bbd8b708c828.jpg" alt="center">
+            <p>Man Hole Intrustion Detection in farming fields using pir motion sensor</p>
+            <p>Manhole intrusion detection in farming fields uses PIR motion sensors to monitor and detect unauthorized access or tampering. These sensors trigger alerts upon detecting motion, enhancing security and preventing potential threats.</p>
+        </a>
+    </div>
+</body>
+</html>
