@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services Section</title>
+    <style>
+       body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.section-services {
+    background-color: #ff5e62;
+    padding: 50px 20px;
+    text-align: center;
+    color: #fff; /* Ensure text is visible on the red background */
+}
+
+.section-services h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #fff; /* Ensure the heading text is visible */
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    flex-basis: calc(33.333% - 40px); /* 3 columns with 20px gap */
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.service:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
+    </style>
+</head>
+<body>
+    <section id="services" class="section-services">
+        <h2>Services</h2>
+        <div class="services-container">
+            <div class="service">
+                <h3>Web Design</h3>
+                <p>Creating beautiful and user-friendly website designs.</p>
+            </div>
+            <div class="service">
+                <h3>Responsive Design</h3>
+                <p>Ensuring your website looks great on all devices.</p>
+            </div>
+            <div class="service">
+                <h3>E-commerce Solutions</h3>
+                <p>Developing online stores with seamless shopping experiences.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
